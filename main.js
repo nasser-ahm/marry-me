@@ -1,10 +1,14 @@
-let time = setTimeout(() => {
-    console.log('nasser is braindead');  
-   
-}, 3000);
-
-clearTimeout(time);
+let btnyes = document.querySelector('.yes');
 
 
 
+btnyes.addEventListener('click', () => {
+  window.location.href = "love.html";
+});
 
+let btnNo = document.querySelector('.no');
+
+
+btnNo.addEventListener('click', () => {
+  btnNo.style.display = 'none';
+})
