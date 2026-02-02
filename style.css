@@ -22,9 +22,14 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 1px solid grey;
-    border-radius: 40px;
     
+}
+@media (max-width:768px) {
+    .main {
+    width: 300px;           /* small width */
+            /* <-- center horizontally */
+    }
+  
 }
 
 img {
@@ -35,7 +40,7 @@ img {
 }
 
 p {
-    font-size: 30px;
+    font-size: 1rem;
     margin-bottom: 50px;
 }
 .button-div {
@@ -49,9 +54,12 @@ button {
     background-color: white;
     border: 2px solid pink;
     border-radius: 10px;
-    font-size: 40px;
+    font-size: 1rem;
     padding: 10px;
     margin-bottom: 20px;
     cursor: pointer;
 
 }
+/* Responsive for small screens */
+
+

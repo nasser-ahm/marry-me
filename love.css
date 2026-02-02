@@ -32,7 +32,7 @@ p {
     justify-content: center;
     margin-top: 20px;
     color: purple;
-    font-size: 20px;
+    font-size: 1rem;
 }
 
 .btn {
@@ -77,8 +77,13 @@ p {
 
 .proposal h1 {
   margin-top: 30px;
-  font-size: 60px;
+  font-size: 1rem;
   color: pink;
+}
+@media (max-width: 768px) {
+    .proposal h1 {
+        font-size: 28px;
+    }
 }
 
 /* fade out main */
